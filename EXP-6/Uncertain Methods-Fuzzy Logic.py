@@ -28,7 +28,7 @@ system.add_rule(
 
 system.add_rule(
 { 'Temperature':'Cold', 
-Humidity':'Normal' },
+'Humidity':'Normal' },
 { 'Speed':'Slow'})
 
 
@@ -72,4 +72,5 @@ system.add_rule(
 output = system.evaluate_output({'Temperature':18, 'Humidity':60})
 
 
-print(output) system.plot_system()
+print(output) 
+system.plot_system()

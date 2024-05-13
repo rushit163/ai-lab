@@ -139,4 +139,4 @@ if __name__ == '__main__':
         print('The process of Unification failed!')
     else:
         print('The process of Unification successful!')
-        	       print(result)
+        print(result)
